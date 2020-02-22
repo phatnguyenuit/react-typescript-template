@@ -16,7 +16,8 @@
 - Add new scripts:
 
   ```json
-  "prettier": "prettier --write src/**/*.{ts,tsx}", "lint-staged": "lint-staged",
+  "prettier": "prettier --write src/**/*.{ts,tsx}",
+  "lint-staged": "lint-staged",
   "lint:ts": "eslint ./src --ext .ts,.tsx",
   "lint:ts:fix": "npm run lint:ts -- --fix"
   ```
