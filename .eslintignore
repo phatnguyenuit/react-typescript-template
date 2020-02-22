@@ -3,5 +3,4 @@
 **/*.min.js
 **/*.min.jsx
 **/*.d.ts
-update_build_information.js
 src/serviceWorker.js

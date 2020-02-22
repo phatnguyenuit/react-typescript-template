@@ -17,7 +17,10 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react"
+    "jsx": "react",
+
+    // Allow to use absolute imports with baseUrl
+    "baseUrl": "src/",
   },
   "include": [
     "src"
